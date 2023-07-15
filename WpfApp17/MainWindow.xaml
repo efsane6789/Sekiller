@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp17.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp17"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+
+        <ListView Width="340" Margin="94,0,366,0" SelectionChanged="ListView_SelectionChanged">
+            <ListViewItem>
+                <Button Height="150" Margin="5"  Width="150" Click="Button_Click">
+                    <Image Source="C:\Users\Admin\source\repos\WpfApp17\WpfApp17\Images\gol.jpg" Width="150" Height="150"/>
+                </Button>
+            </ListViewItem>
+
+            <ListViewItem>
+                <Button Height="150"  Margin="5"  Width="150" Click="Button_Click">
+                    <Image Source="C:\Users\Admin\source\repos\WpfApp17\WpfApp17\Images\cicekler.jpg" Width="150" Height="150"/>
+                </Button>
+            </ListViewItem>
+            <ListViewItem>
+                <Button Height="150"  Margin="5"  Width="150" Click="Button_Click">
+                    <Image Source="C:\Users\Admin\source\repos\WpfApp17\WpfApp17\Images\menzere.jpg" Width="150" Height="150"/>
+                </Button>
+            </ListViewItem>
+            <ListViewItem>
+                <Button Height="150"  Margin="5"  Width="150" Click="Button_Click">
+                    <Image Source="C:\Users\Admin\source\repos\WpfApp17\WpfApp17\Images\tebiet.jpg" Height="150"/>
+                </Button>
+            </ListViewItem>
+            <ListViewItem>
+                <Button Height="150"  Margin="5"  Width="150" Click="Button_Click">
+                    <Image Source="C:\Users\Admin\source\repos\WpfApp17\WpfApp17\Images\yasamen.jpg" Width="150" Height="150"/>
+                </Button>
+            </ListViewItem>
+        </ListView>
+        <Button Margin="492,153,100,147">button1</Button>
+
+
+
+
+    </Grid>
+</Window>
